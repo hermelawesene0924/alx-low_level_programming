@@ -18,3 +18,4 @@ printf("Size of a lon long int: %zu byte(s)\n", sizeof(llInt));
 printf("Size of a float: %zu byte(s)\n", sizeof(floatType));
 return (0);
 }
+
