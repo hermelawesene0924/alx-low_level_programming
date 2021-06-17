@@ -1,2 +1,5 @@
-#!/bin/bash
-gcc 4-main.c
+#include <stdio.h>
+  int main() {
+    puts("\"Programming is like building a multilingual puzzel\n");
+    return (0);
+    }
