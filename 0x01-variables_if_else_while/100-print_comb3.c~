@@ -6,14 +6,16 @@
  */
 int main(void)
 {
-int i;
-for (i = '0'; i <= '9'; i++)
+int t, o;
+for (o = t + 1; o <= 9; o++)
 {
-putchar(i);
-if (i != '9')
+putchar(t + '0');
+putchar(o + '0');
+if (t < 8)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 putchar('\n');
