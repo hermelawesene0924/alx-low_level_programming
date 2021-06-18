@@ -7,10 +7,8 @@
 int main(void)
 {
 int i;
-for (i = 0; i <= 9; i++)
-{
-printf("%d", i);
-}
-printf("\n");
+for (i = 'z'; i >= 'a'; i--)
+putchar(i);
+putchar('\n');
 return (0);
 }
