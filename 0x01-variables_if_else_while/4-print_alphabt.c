@@ -6,10 +6,12 @@
  */
 int main(void)
 {
-int i;
-for (i = 0; i <= 9; i++)
-{
-printf("%d \n", i);
-}
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+if (ch == 'e' || ch == 'q')
+continue;
+else
+putchar(ch);
+putchar('\n');
 return (0);
 }
