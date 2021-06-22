@@ -16,7 +16,7 @@ for (j = 0; j <= n; j++)
 {
 if ((i * j) < 10)
 {
-if (j !=0)
+if (j != 0)
 {
 _putchar(' ');
 _putchar(' ');
