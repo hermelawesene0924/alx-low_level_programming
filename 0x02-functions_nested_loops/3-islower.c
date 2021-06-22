@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _is lower - func
+ * _islower - func
  *
  * @c: is a parameter
  *
