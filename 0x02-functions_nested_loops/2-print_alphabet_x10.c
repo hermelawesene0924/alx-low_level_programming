@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * main - Entry point
+ * print_alphabet_x10 - print entire alphabet on 10 lines
  *
- * Return: Always 0 (Success)
+ * Return: Void.
  */
 void print_alphabet_x10(void)
 {

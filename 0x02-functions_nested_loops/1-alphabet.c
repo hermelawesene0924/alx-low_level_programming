@@ -1,9 +1,9 @@
 #include "holberton.h"
 #include "string.h"
 /**
- * main - The entry point
+ * print_alphabet - print entire alphabet
  *
- * Return: Always 0 (Success)
+ * Return: Void.
  */
 void print_alphabet(void)
 {
