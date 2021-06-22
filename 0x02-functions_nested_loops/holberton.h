@@ -1,5 +1,5 @@
-#define HOLBERTON_H
+void print_alphabet_x10(void);
 
-#include "_putchar.c"
-extern int _putchar(char c);
-extern void print_alphabet(void);
+int _putchar(char c);
+
+void print_alphabet(void);

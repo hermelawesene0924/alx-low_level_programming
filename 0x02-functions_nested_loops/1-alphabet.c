@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include "string.h"
 /**
  * main - The entry point
  *
@@ -6,12 +7,10 @@
  */
 void print_alphabet(void)
 {
-print_alphabet();
-int i;
-for (i = 97; i < 123; i++)
+char i;
+for (i = 'a'; i <= 'z'; i++)
 {
 _putchar(i);
 }
 _putchar('\n');
-return (0);
 }
