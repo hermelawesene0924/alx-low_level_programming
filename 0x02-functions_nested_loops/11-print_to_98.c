@@ -14,7 +14,7 @@ for (i = n; i >= 98; i--)
 {
 if (i != n)
 {
-printf(",");
+printf(", ");
 }
 printf("%d", i);
 }
