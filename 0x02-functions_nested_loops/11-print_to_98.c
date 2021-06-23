@@ -1,8 +1,8 @@
 #include "holberton.h"
 #include "stdio.h"
 /**
- * print_to_98 - print numbers in between 
- * @n: integer to start at
+ *print_to_98 - print numbers in between.
+ *@n: integer to start at
  * Return: Void.
  */
 void print_to_98(int n)
@@ -23,7 +23,7 @@ else
 {
 for (i = n; i <= 98; i++)
 {
-if(i != n)
+if (i != n)
 {
 printf(", ");
 }
