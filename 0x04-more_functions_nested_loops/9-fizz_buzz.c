@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main - print fizz and buzz in the given condition
- * @i: integer
+ *
  * Return: void
  */
 int main(void)
