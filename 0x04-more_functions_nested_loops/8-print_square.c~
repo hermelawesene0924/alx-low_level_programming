@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include "holberton.h"
+/**
+ * print_square - printing square with the num of integer
+ * @size: integer to print character
+ * Return: void
+ */
+void print_square(int n)
+{
+int i, k;
+for (i = 0; i < size; i++)
+{
+for (k = 0; k < size; k++)
+{
+_putchar('#');
+}
+_putchar('\n');
+}
+if (size <= 0)
+{
+_putchar('\n');
+}
+}

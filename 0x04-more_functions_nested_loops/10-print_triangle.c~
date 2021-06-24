@@ -1,0 +1,12 @@
+#include "holberton.h"
+#include <stdio.h>
+/**
+ * print_triangle - printing triangle with respect to the integer
+ * @size: parameter
+ */
+void print_triangle(int size)
+{
+  int i;
+  int k;
+  int n;
+  
