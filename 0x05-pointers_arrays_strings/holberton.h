@@ -18,6 +18,6 @@ void print_array(int *a, int n);
 
 char *_strepy(char *dest, char *src);
 
-int _atoi(char *);
+int _atoi(char *s);
 
 int _putchar(char);

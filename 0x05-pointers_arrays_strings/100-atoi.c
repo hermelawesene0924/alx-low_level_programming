@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * _atoi - to convert string int an integer
- * @s: parameter
- * return: the sum
+ * _atoi - convert string in to an integer.
+ * @s: a string that will converted
+ * Return: the integer value of the converted string.
  */
 int _atoi(char *s)
 {
@@ -16,5 +16,5 @@ num = (num * 10) + (*s - '0');
 else if (num > 0)
 break;
 } while (*s++);
-return (num * sign);
+return (num *sign);
 }

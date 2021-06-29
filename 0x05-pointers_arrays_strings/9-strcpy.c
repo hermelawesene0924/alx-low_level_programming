@@ -11,6 +11,6 @@ int n = -1;
 do {
 n++;
 dest[n] = src[n];
-} while (src[n] != '\n');
+} while (src[n] != '\0');
 return (dest);
 }
